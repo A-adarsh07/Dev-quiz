@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quirky quizzes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <style>
+    body {
+      background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+      margin: 2px;
+      padding: 4px;
+      flex-wrap:wrap;
+      box-sizing: border-box;
+    }
+  
+    .navbar-brand {
+      justify-content: space-evenly;
+    }
+
+    #topics {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+      margin-bottom: 70px;
+
+    }
+    #topics .btn{
+       margin-left:40px;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    #mail form{
+     border:2px solid red;
+     height:2;
+    }
+   
+  </style>
+</head>
+
+<body>
+
+               <!--**************** Navigation bar *************-->
+          
+  <nav class="navbar bg-dark" data-bs-theme="dark">
+    <nav class="navbar sticky-top bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i>Quirky-Quizzes</i></a>
+      </div>
+    </nav>
+    <a class="navbar-brand" href="#">Home</a>
+    <a class="navbar-brand" href="#">Subjects</a>
+    <a class="navbar-brand" href="#">About</a>
+    <a class="navbar-brand" href="login.html" style="color:chartreuse;">Sign in</a>
+  </nav>
+  
+  <!--      Header         -->
+  <h1>Welcome to quirky quizzes</h1>
+
+
+
+  <!-- Quizz topics -->
+  <!-- frontend -->
+    
+  <div id="topics">
+    <div class="card" style="width: 18rem;">
+      <img
+        src="https://www.nicepng.com/png/detail/222-2229500_html5-vector-javascript-html-css-javascript-bootstrap.png"
+        alt="Html5 Vector Javascript - Html Css Javascript Bootstrap@nicepng.com" class="card-img-top"
+        alt="html css js pic.">
+        <div class="card-body">
+          <h5 class="card-title" style="color:Tomato; ">FRONTEND</h5>
+        <p class="card-text">Collection of some basic and intermediate Html,Css and Javascript questions.</p>
+        
+        <a href="frontend.html" style="margin-top: 20px;" class="btn btn-primary" target="_blank">Frontend Quiz</a>
+      </div>
+    </div>
+
+
+    <!--             javascript            -->
+    <div class="card" style="width: 18rem;">
+      <img
+        src="https://play-lh.googleusercontent.com/PAPuQveK8eeVwh7M4vccotAFPOJI0sENMWxnFe9RDt-_63SfVRiLUNXcpJ-8iHuVng"
+        style="height:50%" class="card-img-top" alt="javascript pic">
+        <div class="card-body">
+        <h5 style="color:rgb(114, 11, 145);" class="card-title">JAVASCRIPT</h5>
+        <p class="card-text" style="height:50px">Solve some important interview questions asked on javascript.</p>
+        <a href="javascript.html"  style="margin-top:40px;" class="btn btn-primary" target="_blank">Javascript Quiz</a>
+      </div>
+    </div>
+
+    
+    <!-- CS fundamentals -->
+    <div class="card" style="width: 18rem;">
+      <img
+      src="https://s3.ap-south-1.amazonaws.com/rzp-prod-merchant-assets/payment-link/description/blue%20and%20white%20striped%20checklist_hajqzodbe4vqfp"
+        style="height:50%" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 style="color:rgb(9, 23, 91);" class="card-title">CS TOPICS</h5>
+        <p class="card-text">Test your knowledge on various computer science topics like database,operating
+          system,Networking etc..</p>
+        <a href="general.html" style="margin-top:40px;" class="btn btn-primary" target="_blank">DBMS,OS,& CN</a>
+      </div>
+    </div>
+  </div>
+ 
+   <footer style="margin-left:auto; margin-right: auto;text-align: center;">Made by Adarsh</footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
